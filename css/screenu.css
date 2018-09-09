@@ -1,0 +1,142 @@
+
+#ul{
+#	padding: 0;
+#	margin: 0 0 20px 0;
+#	list-style: none;
+#	font-size: 20px;
+#}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    float: left;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+h1, h2{
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+}
+p{
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+	#font-size : 30px;
+	#font-color: #00CED1;
+	font-style : italic;
+	#background-color: #00CED1;
+	#background-color: #555;
+   	color: white;
+}
+.active {
+    background-color: #4CAF50;
+}
+ul li{
+	padding: 5px 0;
+}
+ul li input[type="text"], ul li input[type="password"]{
+	width: 200px;
+}
+/*Header*/
+h1{
+	font-size: 1.8em;
+}
+h2{
+	font-size: 1.4em;
+}
+.logo{
+	font: 2em Ariel;
+	margin: 0 0 10px 0;
+	padding: 0;
+	width: 200px;
+	color: #fff;
+}
+/*Container*/
+body{
+	background-image: url("globecare.jpg");
+	font-family: Ariel;
+	font-size: 0.8em;
+}
+#container, footer{
+	background: #fff;
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+}
+header{
+	width: 940px;
+	padding: 10px;
+        background-color: indigo;
+	margin: 0 auto 10px auto;
+}
+#container{
+	min-height: 500px;
+	border-radius: 5px 5px 0 0;
+}
+footer{
+	border-radius: 0 0 5px 5px;
+}
+.widget h2{
+	margin: 0 0 10px 0;
+	padding: 0 5px;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+}
+.widget .inner{
+	margin: 0 10px;
+}
+/*Navigation*/
+nav{
+	float:left; 
+}
+nav ul{
+	margin: 0;
+}
+nav ul li{
+	display: inline;
+	margin-right: 10px;
+}
+nav ul li.current{
+	font-weight: bold;
+}
+nav ul li a.last{
+	border-right: 0;
+}
+aside{
+	width: 260px;
+	float: right;
+	border-left: 1px dashed #aaa;
+	padding-left: 15px;
+}
+#login li.link{
+	margin-top: 5px;
+}
+footer{
+	border-top: 1px dashed #ddd;
+	color: #999;
+}
+.clear{
+	clear: both;
+}
